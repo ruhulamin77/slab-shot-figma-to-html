@@ -1,0 +1,18 @@
+@media only screen and (max-width: 992px) {
+}
+
+@media only screen and (max-width: 768px) {
+  .nav_menu {
+    display: none;
+  }
+  .hamburger_menu {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .banner_left h1 {
+    font-size: 60px;
+    line-height: 110%;
+  }
+}
