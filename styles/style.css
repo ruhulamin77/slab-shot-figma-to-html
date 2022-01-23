@@ -1,0 +1,97 @@
+/* ===============
+  common styles
+================== */
+
+@font-face {
+  font-family: "Helveticaa";
+  src: url("./fonts/Helvetica.ttf");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f7fbfe;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Helvetica", sans-serif;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+/* ===============
+  header styles
+================== */
+
+.inner_header {
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+}
+.header_left {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  margin-right: 120px;
+}
+
+.header_left ul {
+  list-style: none;
+  display: flex;
+}
+
+.header_left ul li {
+  margin-right: 40px;
+}
+.header_left ul li a {
+  text-decoration: none;
+  font-family: Avenir;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 160%;
+  color: #4b5d68;
+}
+.header_right {
+}
+.demo_btn {
+  background: #ffffff;
+  box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
+  border-radius: 50px;
+  width: 210px;
+  height: 60px;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 160%;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.005em;
+  color: #212353;
+  padding: 15px 30px;
+  border: none;
+  outline: none;
+}
+.demo_btn span {
+  margin-left: 26px;
+  color: #9c69e2;
+}
