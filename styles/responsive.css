@@ -1,4 +1,7 @@
 @media only screen and (max-width: 992px) {
+  .banner_left h1 {
+    font-size: 60px;
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -8,11 +11,19 @@
   .hamburger_menu {
     display: block;
   }
+  .banner_left h1 {
+    font-size: 60px;
+  }
+  .storage_bank_right h2 {
+    font-size: 35px;
+  }
 }
 
 @media only screen and (max-width: 600px) {
   .banner_left h1 {
-    font-size: 60px;
-    line-height: 110%;
+    font-size: 50px;
+  }
+  .storage_bank_right h2 {
+    font-size: 30px;
   }
 }
