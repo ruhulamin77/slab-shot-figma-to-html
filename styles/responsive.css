@@ -71,9 +71,29 @@
   .inner_try {
     flex-direction: column;
   }
+  .try_right {
+    flex-direction: column;
+    margin-top: 30px;
+  }
+  .try_left {
+    text-align: center;
+  }
+  .inner_footer,
+  .inner_dateware {
+    text-align: left;
+  }
+  .footer_box {
+    flex-basis: 50%;
+  }
+  .about {
+    flex-basis: 25%;
+  }
+  .help {
+    flex-basis: 25%;
+  }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 570px) {
   .banner_left h1 {
     font-size: 50px;
   }
@@ -83,10 +103,7 @@
   .feature_box {
     flex-direction: column;
   }
-  .try_right {
-    flex-direction: column;
-    align-items: center;
-  }
+
   .learn_btn_2 {
     margin-bottom: 30px;
   }
@@ -95,5 +112,21 @@
   }
   #try {
     margin: 50px 0;
+  }
+
+  .footer_box {
+    flex-basis: 100%;
+  }
+  .about {
+    flex-basis: 50%;
+  }
+  .help {
+    flex-basis: 50%;
+  }
+  .datawere {
+    margin-bottom: 50px;
+  }
+  .footer_bottom {
+    margin-top: 20px;
   }
 }
