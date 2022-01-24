@@ -52,6 +52,7 @@ hr {
   border: 0;
   outline: 0;
   cursor: pointer;
+  display: inline-block;
 }
 
 /* ===============
@@ -107,8 +108,7 @@ hr {
   letter-spacing: 0.005em;
   color: #212353;
   padding: 15px 30px;
-  border: none;
-  outline: none;
+  cursor: pointer;
 }
 .demo_btn span {
   margin-left: 20px;
@@ -306,4 +306,42 @@ hr {
 .feature_box_content span {
   color: #9c69e2;
   margin-left: 20px;
+}
+
+/* ===============
+  try for free styles
+================== */
+#try {
+  margin: 100px 0;
+}
+.inner_try {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.try_left h2 {
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 130%;
+
+  color: #212353;
+}
+.try_left p {
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 160%;
+  color: #4b5d68;
+  margin-top: 20px;
+}
+.try_right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.learn_btn_2 {
+  background-color: #f063b8;
+  margin-right: 30px;
 }

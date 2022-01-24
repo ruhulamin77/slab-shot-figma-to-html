@@ -68,6 +68,9 @@
   .storage_bank_right p {
     max-width: 100%;
   }
+  .inner_try {
+    flex-direction: column;
+  }
 }
 
 @media only screen and (max-width: 600px) {
@@ -79,5 +82,18 @@
   }
   .feature_box {
     flex-direction: column;
+  }
+  .try_right {
+    flex-direction: column;
+    align-items: center;
+  }
+  .learn_btn_2 {
+    margin-bottom: 30px;
+  }
+  #features {
+    margin-bottom: 80px;
+  }
+  #try {
+    margin: 50px 0;
   }
 }
