@@ -1,6 +1,22 @@
 @media only screen and (max-width: 992px) {
+  #banner {
+    margin-bottom: 80px;
+    margin-top: 50px;
+  }
   .banner_left h1 {
     font-size: 60px;
+  }
+  .feature_box_container {
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 40px;
+    row-gap: 50px;
+  }
+  #storage_bank {
+    margin-bottom: 100px;
+  }
+  .inner_features > p {
+    margin: 30px auto 30px;
   }
 }
 
@@ -11,11 +27,46 @@
   .hamburger_menu {
     display: block;
   }
+  #banner {
+    margin-bottom: 50px;
+    margin-top: 30;
+  }
+  .inner_banner {
+    background-image: none;
+    margin-bottom: 0px;
+    margin-top: 0;
+  }
   .banner_left h1 {
     font-size: 60px;
   }
+  .banner_left p {
+    max-width: 600px;
+  }
+  #storage_bank {
+    margin-bottom: 60px;
+  }
+  .inner_features > p {
+    margin: 30px auto 30px;
+  }
+  .inner_storage_bank {
+    flex-direction: column;
+  }
+
+  .storage_bank_left {
+    width: 100%;
+  }
+  .storage_bank_left img {
+    width: 80%;
+  }
+  .storage_bank_right {
+    width: 80%;
+  }
   .storage_bank_right h2 {
     font-size: 35px;
+    max-width: 600px;
+  }
+  .storage_bank_right p {
+    max-width: 100%;
   }
 }
 
@@ -25,5 +76,8 @@
   }
   .storage_bank_right h2 {
     font-size: 30px;
+  }
+  .feature_box {
+    flex-direction: column;
   }
 }

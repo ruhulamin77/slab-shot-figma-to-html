@@ -26,6 +26,11 @@ h5,
 h6 {
   font-family: "Helvetica", sans-serif;
 }
+hr {
+  height: 2px;
+  background: #9c69e2;
+  opacity: 0.2;
+}
 
 .container {
   max-width: 1170px;
@@ -117,20 +122,19 @@ h6 {
   banner styles
 ================== */
 #banner {
+  margin-top: 80px;
   margin-bottom: 100px;
 }
 .inner_banner {
-  height: calc(100vh - 180px);
+  /* height: calc(100vh - 100px); */
   background-image: url("../images/banner_bg.png");
   background-repeat: no-repeat;
   background-position-x: right;
   background-position-y: bottom;
   background-size: 750px;
-  margin-top: 80px;
   display: flex;
   align-items: center;
   width: 100%;
-  margin-bottom: 100px;
 }
 .banner_left {
   /* width: 50%; */
@@ -209,13 +213,9 @@ h6 {
   features styles
 ================== */
 #features {
+  margin-bottom: 150px;
 }
-.inner_features {
-  /* display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center; */
-}
+
 .inner_features h2 {
   font-weight: bold;
   font-size: 40px;
